@@ -43,7 +43,7 @@ usage () {
 }
 
 not_found () {
-	echo "ERROR: $1 cannot be found in PATH." >&2
+	echo "blech ERROR: $1 cannot be found in PATH." >&2
 	exit 1
 }
 
